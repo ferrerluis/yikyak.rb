@@ -1,5 +1,10 @@
 # YikYak Ruby Library
 
+## Dependencies
+
+- HTTParty: `gem install httparty`
+- JWT: `gem install jwt`
+
 ## Usage
 
 - Require the library: `require 'yikyak_ruby'`.
