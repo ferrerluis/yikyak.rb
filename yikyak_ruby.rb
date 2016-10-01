@@ -35,7 +35,7 @@ class YikYak
       headers: { 'Content-Type' => 'application/json' }
     }
     res = HTTParty.post(URL + endpoint, options)
-    p res.body if res.code/100 != 2
+    res.code/100 == 2 # Returns true if the request worked and false otherwise
   end
 
   def prepare(payload)

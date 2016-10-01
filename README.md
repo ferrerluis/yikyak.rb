@@ -10,6 +10,12 @@
 
 ### set\_status
 
+If it goes through, the function returns `true`. Returns `false` otherwise.
+
 ```ruby
-yak.set_status "JustChillin"
+if yak.set_status "JustChillin"
+  p "Worked"
+else
+  p "Failed"
+end
 ```
